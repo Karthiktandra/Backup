@@ -60,14 +60,8 @@ variable "timezone" {
 }
 variable "tags" {
   default = { 
-              INFY_EA_BusinessUnit    =   "CCD"
-              INFY_EA_CostCenter	  =   "CCD"
-              INFY_EA_PrjectCode	  =   "CCDBLINT"
-              INFY_EA_Purpose	      =   "Automatio-Account"
-              INFY_EA_WorkLoadType    =   "Non-Production"
-              INFY_EA_CustomTag01	  =   "PO"
-              INFY_EA_CustomTag02	  =   "Infosys Limited"
-              INFY_EA_Role	          =   "Automation-Account"
+             BusinessUnit    =   "CCD"
+             
             }
 }
 
